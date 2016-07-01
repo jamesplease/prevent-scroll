@@ -7,7 +7,9 @@
   "rules": {
     "strict": 0,
     "quotes": [2, "single"],
-    "no-unused-expressions": 0
+    "no-unused-expressions": 0,
+    "no-invalid-this": "off",
+    "max-nested-callbacks": "off"
   },
   "env": {
     "browser": true,
