@@ -26,7 +26,7 @@ export default {
     const htmlScrollTop = htmlEl.scrollTop;
     let scrollTop = bodyScrollTop ? bodyScrollTop : htmlScrollTop;
 
-    // Store the current value of the htmlEl's styles – we're about to override
+    // Store the current value of the htmlEl's styles – we're about to override
     // them.
     currentPosition = htmlEl.style.position;
     currentOverflow = htmlEl.style.overflowY;
