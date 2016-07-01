@@ -16,11 +16,11 @@ scrolling.
 
 ### Features
 
-✓ Mobile and desktop support
-✓ Prevents scrolling through keyboard inputs
-✓ Never loses the position of the scrollbar
-✓ Never causes the scrollbar to appear or disappear unnecessarily
-✓ Solid browser support
+✓ Mobile and desktop support  
+✓ Prevents scrolling through keyboard inputs  
+✓ Never loses the position of the scrollbar  
+✓ Never causes the scrollbar to appear or disappear unnecessarily  
+✓ Solid browser support  
 ✓ Zero dependencies
 
 ### API
