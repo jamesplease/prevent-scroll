@@ -1,6 +1,6 @@
 {
   "name": "prevent-scroll",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Reliably disable scrolling",
   "main": "dist/prevent-scroll.js",
   "scripts": {
