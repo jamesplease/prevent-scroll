@@ -3,7 +3,6 @@
 Reliably disable scrolling
 
 [![Travis build status](http://img.shields.io/travis/jmeas/prevent-scroll.svg?style=flat)](https://travis-ci.org/jmeas/prevent-scroll)
-[![Code Climate](https://codeclimate.com/github/jmeas/prevent-scroll/badges/gpa.svg)](https://codeclimate.com/github/jmeas/prevent-scroll)
 [![Test Coverage](https://codeclimate.com/github/jmeas/prevent-scroll/badges/coverage.svg)](https://codeclimate.com/github/jmeas/prevent-scroll)
 [![Dependency Status](https://david-dm.org/jmeas/prevent-scroll.svg)](https://david-dm.org/jmeas/prevent-scroll)
 [![devDependency Status](https://david-dm.org/jmeas/prevent-scroll/dev-status.svg)](https://david-dm.org/jmeas/prevent-scroll#info=devDependencies)
