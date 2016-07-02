@@ -119,17 +119,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var htmlEl = document.querySelector('html');
 	    var body = document.body;
 	
+	    // Reset `htmlEl` to the original styles.
+	    htmlEl.style.position = currentPosition;
+	    htmlEl.style.overflowY = currentOverflow;
+	    htmlEl.style.width = currentWidth;
+	
 	    // Retrieve our original scrollTop from the htmlEl's top
 	    var scrollTop = -parseInt(htmlEl.style.top);
 	    // Return us to the original scroll position. Once again, we set this on
 	    // both the `body` and the `htmlEl` to be safe.
 	    htmlEl.scrollTop = scrollTop;
 	    body.scrollTop = scrollTop;
-	
-	    // Reset `htmlEl` to the original styles.
-	    htmlEl.style.position = currentPosition;
-	    htmlEl.style.overflowY = currentOverflow;
-	    htmlEl.style.width = currentWidth;
 	  }
 	};
 
