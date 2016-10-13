@@ -22,12 +22,32 @@ scrolling.
 ✓ Solid browser support  
 ✓ Zero dependencies
 
+### Installation
+
+The recommended way to install this package is through npm.
+
+```
+npm install prevent-scroll
+```
+
 ### API
 
-##### `on()`
+##### `preventScroll.on()`
 
 Disables scrolling.
 
-##### `off()`
+##### `preventScroll.off()`
 
 Enables scrolling.
+
+### Example Usage
+
+```js
+import preventScroll from 'prevent-scroll';
+
+// Disable scrolling
+preventScroll.on();
+
+// Allow scrolling
+preventScroll.off();
+```
