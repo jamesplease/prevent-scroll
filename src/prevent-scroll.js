@@ -12,14 +12,6 @@ export default {
     const htmlEl = document.querySelector('html');
     const body = document.body;
 
-    // `window.innerHeight` is the height of the viewport
-    // `body.scrollHeight` is the height of the document
-    // If the document fits in the window, then the document cannot be scrolled,
-    // and we don't need to do anything.
-    if (window.innerHeight >= body.scrollHeight) {
-      return;
-    }
-
     // Determine the `scrollTop` to use. Some browsers require checking the
     // `body`, others use `html`.
     const bodyScrollTop = body.scrollTop;
