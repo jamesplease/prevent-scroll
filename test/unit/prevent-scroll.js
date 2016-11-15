@@ -72,9 +72,9 @@ describe('preventScroll', function() {
         preventScroll.off();
       });
 
-      it('should not set the HTML to position fixed', () => {
+      it('should still set the HTML to position fixed', () => {
         preventScroll.on();
-        expect(this.htmlEl.style.position).to.not.equal('fixed');
+        expect(this.htmlEl.style.position).to.equal('fixed');
       });
     });
   });
