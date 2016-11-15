@@ -60,15 +60,15 @@ describe('preventScroll', function() {
     describe('when the window height is larger than the body height', () => {
       beforeEach(() => {
         this.originalWindowHeight = window.innerHeight;
-        this.originalBodyHeight = this.body.clienHeight;
+        this.originalBodyHeight = this.body.scrollHeight;
 
         window.innerHeight = 5000;
-        this.body.clientHeight = 300;
+        this.body.scrollHeight = 300;
       });
 
       afterEach(() => {
         window.innerHeight = this.originalWindowHeight;
-        this.body.clientHeight = this.originalBodyHeight;
+        this.body.scrollHeight = this.originalBodyHeight;
         preventScroll.off();
       });
 
