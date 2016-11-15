@@ -13,10 +13,10 @@ export default {
     const body = document.body;
 
     // `window.innerHeight` is the height of the viewport
-    // `body.clientHeight` is the height of the document
-    // If the document fits in the window, then the document
-    // cannot be scrolled, and we don't need to do anything.
-    if (window.innerHeight >= body.clientHeight) {
+    // `body.scrollHeight` is the height of the document
+    // If the document fits in the window, then the document cannot be scrolled,
+    // and we don't need to do anything.
+    if (window.innerHeight >= body.scrollHeight) {
       return;
     }
 
